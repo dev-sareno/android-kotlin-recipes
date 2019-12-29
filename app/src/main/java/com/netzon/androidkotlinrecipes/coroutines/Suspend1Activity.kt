@@ -45,7 +45,7 @@ class Suspend1Activity : AppCompatActivity(), CodeView.OnHighlightListener {
                     "    }")
             .setLanguage(Language.KOTLIN)
             .setWrapLine(false)
-            .setFontSize(12f)
+            .setFontSize(10f)
             .setZoomEnabled(false)
             .setShowLineNumber(true)
             .setStartLineNumber(1)

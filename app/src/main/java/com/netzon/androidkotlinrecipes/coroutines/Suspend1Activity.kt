@@ -25,6 +25,7 @@ class Suspend1Activity : AppCompatActivity(), CodeView.OnHighlightListener {
 
         btn_start.setOnClickListener {
             start()
+            it.isEnabled = false
         }
 
         code_view.setOnHighlightListener(this)

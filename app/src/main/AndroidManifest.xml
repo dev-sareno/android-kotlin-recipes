@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".coroutines.Suspend2Activity"></activity>
+        <activity android:name=".coroutines.Suspend3Activity"></activity>
+        <activity android:name=".coroutines.Suspend2Activity" />
         <activity android:name=".coroutines.Suspend1Activity" />
         <activity android:name=".coroutines.CoroutinesActivity" />
         <activity android:name=".MainActivity">

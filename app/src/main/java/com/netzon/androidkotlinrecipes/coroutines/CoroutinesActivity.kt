@@ -23,5 +23,10 @@ class CoroutinesActivity : AppCompatActivity() {
             val intent = Intent(this, Suspend2Activity::class.java)
             startActivity(intent)
         }
+
+        btn_suspend3.setOnClickListener {
+            val intent = Intent(this, Suspend3Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -30,7 +30,7 @@ class Suspend2Activity : AppCompatActivity(), CodeView.OnHighlightListener {
             .setCode("fun start() {\n" +
                     "        tv_label.text = \"Logs:\"\n" +
                     "\n" +
-                    "        //Call runBlocking on separate thread so it doesn't blocked the UI thread\n" +
+                    "        //Call runBlocking on separate thread so it will not block the UI thread\n" +
                     "        thread {\n" +
                     "            runBlocking {\n" +
                     "                // async 1\n" +
@@ -62,7 +62,7 @@ class Suspend2Activity : AppCompatActivity(), CodeView.OnHighlightListener {
     private fun start() {
         tv_label.text = "Logs:"
 
-        //Call runBlocking on separate thread so it doesn't blocked the UI thread
+        //Call runBlocking on separate thread so it will not block the UI thread
         thread {
             runBlocking {
                 // async 1
